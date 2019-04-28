@@ -55,7 +55,7 @@ print("#           Waring : published with GNU; GPL Ver3           #")
 print("#############################################################\n")
 
 # Starting system analysis
-print("[!] ", "Checking your system *wait...\n\n")
+print"[!] ", "Checking your system *wait...\n\n"
 now = datetime.now()
 print"[-] Checking Start time is.. : ", now, "\n"
 
