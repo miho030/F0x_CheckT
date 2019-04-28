@@ -60,9 +60,9 @@ now = datetime.now()
 print"[-] Checking Start time is.. : ", now, "\n"
 
 #import your system name and network ip addr
-#f0x_name = socket.gethostname()
-#f0x_ip = socket.gethostbyname(f0x_name)
-#print"컴퓨터 이름 : ", f0x_name
+f0x_name = socket.gethostname()
+f0x_ip = socket.gethostbyname(f0x_name)
+print"컴퓨터 이름 : ", f0x_name
 print"컴퓨터 Ip addr :", f0x_ip, "\n"
 
 print"[+] ", "OS 종류: ", platform.system()
